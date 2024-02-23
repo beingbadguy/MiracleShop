@@ -2,15 +2,15 @@ const scroll = new LocomotiveScroll({
   el: document.querySelector("#main"),
   smooth: true,
 });
-const cart = document.querySelector("#cart");
-const cartOpen = document.querySelector(".cart");
-console.log(cart);
-cart.addEventListener("click", () => {
-  searchPanel.style.display = "none";
-  cartOpen.classList.toggle("active");
-  brightness.style.filter = "blur(0px)";
+// const cart = document.querySelector("#cart");
+// const cartOpen = document.querySelector(".cart");
+// console.log(cart);
+// cart.addEventListener("click", () => {
+//   searchPanel.style.display = "none";
+//   cartOpen.classList.toggle("active");
+//   brightness.style.filter = "blur(0px)";
 
-});
+// });
 const search = document.querySelector("#search");
 const searchPanel = document.querySelector(".search");
 const searchClose = document.querySelector("#close");
